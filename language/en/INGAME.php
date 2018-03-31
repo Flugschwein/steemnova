@@ -134,6 +134,7 @@ $LNG['ov_temp_unit']						= '°C';
 $LNG['ov_to']								= 'to';
 $LNG['ov_position']							= 'Position';
 $LNG['ov_points']							= 'Points';
+$LNG['ov_online']							= 'Online';
 $LNG['ov_security_request']					= 'Security question';
 $LNG['ov_security_confirm']					= 'Please confirm if you want to destroy the planet %s .';
 $LNG['ov_password']							= 'Password';
@@ -156,6 +157,8 @@ $LNG['ov_closed']							= 'The universe is currently disabled';
 $LNG['ov_reflink']							= 'Recruits';
 $LNG['ov_noreflink']						= 'You have not recruited any players yet';
 $LNG['ov_chat_online']						= 'Players in chat:';
+$LNG['ov_players']							= 'Players';
+$LNG['ov_moving_fleets']					= 'Moving fleets';
 
 //----------------------------------------------------------------------------//
 // Galaxy
@@ -376,6 +379,12 @@ $LNG['fl_not_enough_space']					= 'You do not have enough cargo space available.
 $LNG['fl_hold_time_not_exists']				= 'Invalid retention time.';
 $LNG['fl_system_places']					= 'Special locations';
 $LNG['fl_no_noresource_exchange'] = 'No resources in exchange field';
+
+$LNG['fl_exchange'] = 'Exchange';
+$LNG['fl_visibility'] = 'Visibility';
+$LNG['fl_visibility_all'] = 'All';
+$LNG['fl_visibility_alliance'] = 'Allies and trading partners';
+$LNG['fl_visibility_no_enemies'] = 'All except enemies';
 //----------------------------------------------------------------------------//
 // Buildings
 $LNG['bd_dismantle']						= 'Demolish';
@@ -1004,6 +1013,7 @@ $LNG['sys_forward']							= 'Next';
 
 
 $LNG['market_p_total']  ='Total';
+$LNG['market_p_ratio']  ='Ratio';
 $LNG['market_p_cost_type']   ='Cost type';
 $LNG['market_p_cost_amount']  ='Amount';
 $LNG['market_p_end']  = 'End';
@@ -1025,6 +1035,9 @@ $LNG['market_msg_trade_topic'] = "Trading status";
 $LNG['market_msg_trade_from'] = "Trading zone";
 $LNG['market_msg_trade_bought'] 					= 'Your fleet is flying to %s with %s %s, %s %s, %s %s and it costs %s %s';
 $LNG['market_msg_trade_sold'] 					= 'Your fleet is flying to %s with %s %s, %s %s, %s %s.';
+
+$LNG['market_buyable_only_trade_partners'] 					= 'Only partners';
+$LNG['market_buyable_no_enemies'] 					= 'No enemies';
 //----------------------------------------------------------------------------//
 // Relatório de Combate
 $LNG['cr_lost_contact']                     = 'Lost touch with your fleet.';
