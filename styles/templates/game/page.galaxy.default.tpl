@@ -176,18 +176,18 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan="3"><span id="missiles">{$currentmip|number}</span> {$LNG.gl_avaible_missiles}</td>
+        <td colspan="3"><span id="missiles">{$currentmip|number}</span> <a href="#" onclick="return Dialog.info(503);">{$LNG.gl_avaible_missiles}</a></td>
 		<td colspan="5"><span id="slots">{$maxfleetcount}</span>/{$fleetmax} {$LNG.gl_fleets}</td>
 	</tr>
 	<tr>
 		<td colspan="3">
-			<span id="elementID210">{$spyprobes|number}</span> {$LNG.gl_avaible_spyprobes}
+            <span id="elementID210">{$spyprobes|number}</span> <a href="#" onclick="return Dialog.info(210);">{$LNG.gl_avaible_spyprobes}</a>
 		</td>
 		<td colspan="3">
-			<span id="elementID209">{$recyclers|number}</span> {$LNG.gl_avaible_recyclers}
+            <span id="elementID209">{$recyclers|number}</span> <a href="#" onclick="return Dialog.info(209);">{$LNG.gl_avaible_recyclers}</a>
 		</td>
 		<td colspan="2">
-			<span id="elementID219">{$grecyclers|number}</span> {$LNG.gl_avaible_grecyclers}
+            <span id="elementID219">{$grecyclers|number}</span> <a href="#" onclick="return Dialog.info(219);">{$LNG.gl_avaible_grecyclers}</a>
 		</td>
 	</tr>
 	<tr style="display: none;" id="fleetstatusrow">

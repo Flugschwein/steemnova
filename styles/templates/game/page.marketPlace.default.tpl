@@ -97,6 +97,7 @@
 		<td>{$FlyingFleetRow.ratio}</td>
 		<td data-time="{$FlyingFleetRow.end}">{pretty_fly_time({$FlyingFleetRow.end})}</td>
 		<td class="no-background no-border">
+		    <a href="#" onclick="return Dialog.info({$FlyingFleetRow.fleet_wanted_resource_id} + 900);">
 			{if $FlyingFleetRow.fleet_wanted_resource_id == 1}
 			<img src="./styles/theme/nova/images/metal.gif"/>
 			{elseif $FlyingFleetRow.fleet_wanted_resource_id == 2}
@@ -104,6 +105,7 @@
 			{elseif $FlyingFleetRow.fleet_wanted_resource_id == 3}
 			<img src="./styles/theme/nova/images/deuterium.gif"/>
 			{/if}
+            </a>
 		</td>
 		<td class="wanted-resource-{$FlyingFleetRow.fleet_wanted_resource_id}">{$FlyingFleetRow.fleet_wanted_resource}</td>
 		<td class="wanted-resource-amount">{$FlyingFleetRow.fleet_wanted_resource_amount|number}</td>
@@ -147,9 +149,12 @@
 			<td>{$row.crystal}</td>
 			<td>{$row.deuterium}</td>
 			<td class="no-background no-border center">
+			    <a href="#" onclick="return Dialog.info({$row.type} + 900);">
 				{if $row.type == 1}<img src="./styles/theme/nova/images/metal.gif"/>
 				{elseif $row.type == 2}<img src="./styles/theme/nova/images/crystal.gif"/>
-				{elseif $row.type == 3}<img src="./styles/theme/nova/images/deuterium.gif"/>{/if}</td>
+				{elseif $row.type == 3}<img src="./styles/theme/nova/images/deuterium.gif"/>{/if}
+                </a>
+            </td>
 			<td>{$row.amount}</td>
 		</tr>
 		{/foreach}
