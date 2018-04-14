@@ -23,7 +23,7 @@
 </tr>
 {foreach $productionList as $productionID => $productionRow}
 <tr style="height:22px">
-	<td><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info({$productionID});'>{$LNG.tech.{$productionID}}</a></th></tr><tr><table><tr><td><img src='{$dpath}gebaeude/{$productionID}.{if $elementID >=600 && $elementID <= 699}jpg{else}gif{/if}'></td><td>{$LNG.shortDescription.901}</td></tr></table></tr></table>">{$LNG.tech.$productionID }</a> ({if $productionID  > 200}{$LNG.rs_amount}{else}{$LNG.rs_lvl}{/if} {$productionRow.elementLevel})</td>
+	<td><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info({$productionID});'>{$LNG.tech.{$productionID}}</a></th></tr><tr><table><tr><td><img src='{$dpath}gebaeude/{$productionID}.{if $productionID >=600 && $productionID <= 699}jpg{else}gif{/if}'></td><td>{$LNG.shortDescription.{$productionID}}</td></tr></table></tr></table>">{$LNG.tech.$productionID }</a> ({if $productionID  > 200}{$LNG.rs_amount}{else}{$LNG.rs_lvl}{/if} {$productionRow.elementLevel})</td>
 	<td><span style="color:{if $productionRow.production.901 > 0}lime{elseif $productionRow.production.901 < 0}red{else}white{/if}">{$productionRow.production.901|number}</span></td>
 	<td><span style="color:{if $productionRow.production.902 > 0}lime{elseif $productionRow.production.902 < 0}red{else}white{/if}">{$productionRow.production.902|number}</span></td>
 	<td><span style="color:{if $productionRow.production.903 > 0}lime{elseif $productionRow.production.903 < 0}red{else}white{/if}">{$productionRow.production.903|number}</span></td>
