@@ -19,8 +19,11 @@
     <table>
     <tr>
     <td>
-    <img src='{$dpath}/gebaeude/{$LNG.tech.901}'>
+    <img src='{$dpath}images/metal.gif'>
     </td>
+    <td>
+    {$LNG.longDescription.901}
+        </td>
     </tr>
     </table>
     </tr>
