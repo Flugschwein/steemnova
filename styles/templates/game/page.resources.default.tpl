@@ -9,7 +9,22 @@
 </tr>
 <tr style="height:22px">
 	<td style="width:40%">&nbsp;</td>
-	<td style="width:10%"><a href="#" onclick="return Dialog.info(901);">{$LNG.tech.901}</td>
+	<td style="width:10%"><a href="#" class='tooltip_sticky' data-tooltip-content="<table>
+	<tr>
+	<th>
+	{$LNG.tech.901}
+    </th>
+    </tr>
+    <tr>
+    <table>
+    <tr>
+    <td>
+    <img src='{$dpath}/gebaeude/{$LNG.tech.901}'>
+    </td>
+    </tr>
+    </table>
+    </tr>
+    </table>">{$LNG.tech.901}</td>
 	<td style="width:10%"><a href="#" onclick="return Dialog.info(902);">{$LNG.tech.902}</td>
 	<td style="width:10%"><a href="#" onclick="return Dialog.info(903);">{$LNG.tech.903}</td>
 	<td style="width:10%"><a href="#" onclick="return Dialog.info(911);">{$LNG.tech.911}</td>
