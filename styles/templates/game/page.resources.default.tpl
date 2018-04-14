@@ -10,9 +10,9 @@
 <tr style="height:22px">
 	<td style="width:40%">&nbsp;</td>
     <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info(901)'>{$LNG.tech.901}</a></th></tr><tr><table><tr><td><img src='{$dpath}images/metal.gif'></td><td>{$LNG.longDescription.901}</td></tr></table></tr></table>">{$LNG.tech.901}</a></td>
-    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th>{$LNG.tech.902}</th></tr><tr><table><tr><td><img src='{$dpath}images/crystal.gif'></td><td>{$LNG.longDescription.902}</td></tr></table></tr></table>">{$LNG.tech.902}</a></td>
-    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th>{$LNG.tech.903}</th></tr><tr><table><tr><td><img src='{$dpath}images/deuterium.gif'></td><td>{$LNG.longDescription.903}</td></tr></table></tr></table>">{$LNG.tech.903}</a></td>
-    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th>{$LNG.tech.911}</th></tr><tr><table><tr><td><img src='{$dpath}images/energy.gif'></td><td>{$LNG.longDescription.911}</td></tr></table></tr></table>">{$LNG.tech.911}</a></td>
+    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info(902)'>{$LNG.tech.902}</a></th></tr><tr><table><tr><td><img src='{$dpath}images/crystal.gif'></td><td>{$LNG.longDescription.902}</td></tr></table></tr></table>">{$LNG.tech.902}</a></td>
+    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info(903)'>{$LNG.tech.903}</a></th></tr><tr><table><tr><td><img src='{$dpath}images/deuterium.gif'></td><td>{$LNG.longDescription.903}</td></tr></table></tr></table>">{$LNG.tech.903}</a></td>
+    <td style="width:10%"><a class='tooltip_sticky' data-tooltip-content="<table><tr><th><a href='#' onclick='return Dialog.info(911)'>{$LNG.tech.911}</a></th></tr><tr><table><tr><td><img src='{$dpath}images/energy.gif'></td><td>{$LNG.longDescription.911}</td></tr></table></tr></table>">{$LNG.tech.911}</a></td>
 </tr>
 <tr style="height:22px">
 	<td>{$LNG.rs_basic_income}</td>
