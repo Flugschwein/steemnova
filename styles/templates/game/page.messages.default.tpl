@@ -8,7 +8,7 @@
 		{if ($CategoryRow@iteration % 6) === 1}<tr>{/if}
 		{if $CategoryRow@last && ($CategoryRow@iteration % 6) !== 0}<td>&nbsp;</td>{/if}
 		<td style="word-wrap: break-word;color:{$CategoryRow.color};"><a href="#" onclick="Message.getMessages({$CategoryID});return false;" style="color:{$CategoryRow.color};">{$LNG.mg_type.{$CategoryID}}</a>
-		<br><span id="unread_{$CategoryID}">{$CategoryRow.unread}</span>/<span id="total_{$CategoryID}">{$CategoryRow.total}</span>
+            <br><span id="unread_{$CategoryID}">{if $CategotyRow.unread > 0}<b>{/if}{$CategoryRow.unread}{if $CategoryRow.unread > 0}</b>{/if}</span>/<span id="total_{$CategoryID}">{$CategoryRow.total}</span>
 		</td>
 		{if $CategoryRow@last || ($CategoryRow@iteration % 6) === 0}</tr>{/if}
 		{/foreach}
