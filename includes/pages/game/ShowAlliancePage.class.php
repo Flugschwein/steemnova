@@ -1,7 +1,7 @@
 <?php
 
 /**
- *  2Moons 
+ *  2Moons
  *   by Jan-Otto Kröpke 2009-2016
  *
  * For the full copyright and license information, please view the LICENSE
@@ -554,7 +554,7 @@ class ShowAlliancePage extends AbstractGamePage
 			'ally_web'					=> $this->allianceData['ally_web'],
 			'ally_tag'	 				=> $this->allianceData['ally_tag'],
 			'ally_members'	 			=> $this->allianceData['ally_members'],
-			'ally_max_members'	 		=> $this->allianceData['ally_members'],
+			'ally_max_members'	 		=> $this->allianceData['ally_max_members'],
 			'ally_name'					=> $this->allianceData['ally_name'],
 			'ally_image'				=> $this->allianceData['ally_image'],
 			'ally_description'			=> BBCode::parse($this->allianceData['ally_description']),
@@ -868,7 +868,7 @@ class ShowAlliancePage extends AbstractGamePage
 			}
 		}
 
-        require 'includes/classes/class.FlyingFleetHandler.php';
+        require_once 'includes/classes/class.FlyingFleetHandler.php';
 
         $available_events = array();
 

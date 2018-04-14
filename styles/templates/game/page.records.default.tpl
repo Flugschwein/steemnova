@@ -29,7 +29,7 @@
 </tr>
 {foreach $researchList as $elementID => $elementRow}
 <tr>
-	<td>{$LNG.tech.{$elementID}}</td>
+	<td><a href="#" onclick="return Dialog.info({$elementID});">{$LNG.tech.$elementID}</a></td>
 	{if !empty($elementRow)}
 	<td>{foreach $elementRow as $user}<a href='#' onclick='return Dialog.Playercard({$user.userID});'>{$user.username}</a>{if !$user@last}<br>{/if}{/foreach}</td>
 	<td>{$elementRow[0].level|number}</td>
